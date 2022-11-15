@@ -14,12 +14,13 @@ public class Transport {
     private String color;
     private double maxSpeed;
 
-    public Transport(String brand, String model, String color, int productionYear, String productionCountry) {
+    public Transport(String brand, String model, String color, int productionYear, String productionCountry, double maxSpeed) {
         this.brand = brand;
         this.model = model;
         this.color = color;
         this.productionYear = productionYear;
         this.productionCountry = productionCountry;
+        this.maxSpeed = maxSpeed;
     }
 
     public int getProductionYear() {

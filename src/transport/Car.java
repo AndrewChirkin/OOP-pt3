@@ -8,8 +8,8 @@ public class Car extends Transport {
     private int numberOfSeats;
     private String tireType;
 
-    public Car(String brand, String model, String color, int productionYear, double engineVolume, String productionCountry, String transmission,String bodyType, String registrationNumber, int numberOfSeats, String tireType) {
-    super(brand, model, color, productionYear,productionCountry);
+    public Car(String brand, String model, String color, int productionYear, double engineVolume, String productionCountry, double maxSpeed, String transmission,String bodyType, String registrationNumber, int numberOfSeats, String tireType) {
+    super(brand, model, color, productionYear,productionCountry, maxSpeed);
     this.engineVolume = engineVolume;
     this.transmission = transmission;
     this.bodyType = bodyType;
